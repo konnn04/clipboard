@@ -44,7 +44,7 @@ async function initDisplay() {
             }}).then(tasks => { 
                 Data = tasks
                 var html =""          
-                for (let i=0;i<tasks.length;i++){
+                for (let i=tasks.length-1;i>=0;i--){
                     html+=
                     `<div class="boxContent">
                     <div class="toolBox">
