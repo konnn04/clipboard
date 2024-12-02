@@ -84,12 +84,10 @@ async function initDisplay() {
 
 $(document).ready(async ()=>{
     $("#login").click(async ()=>{
-        var text=$("#pass").val().trim()
-        if (text == '1') {
-            $("#overlay").fadeOut();
-            initApp()    
-            initDisplay()    
-        }
+        // var text=$("#pass").val().trim()
+        // $("#overlay").fadeOut();
+        initApp()    
+        initDisplay()    
     })
 
 })
