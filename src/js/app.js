@@ -85,7 +85,7 @@ async function initDisplay() {
 $(document).ready(async ()=>{
     $("#login").click(async ()=>{
         var text=$("#pass").val().trim()
-        if (text == key()) {
+        if (text == '1') {
             $("#overlay").fadeOut();
             initApp()    
             initDisplay()    
